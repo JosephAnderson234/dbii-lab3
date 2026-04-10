@@ -2,8 +2,10 @@
 ---
 ## Structure of the data for the lab
 
+XD
+
 | Camp | Type | Size (bytes) |
-| -------  | ------- | ------- | ------- |
+| -------  | ------- | ------- |
 | Employee_ID | int | 4 |
 | Employee_Name | string | 50 |
 | Age | int | 4 |
