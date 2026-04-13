@@ -335,9 +335,7 @@ class BSTFile:
         self.size -= 1
         self._write_header(self.size, self.root_ptr)
         return True
-        self.size -= 1
-        self._write_header(self.size, self.root_ptr)
-        return True
+       
 
     def _range_search_recursive(self, current_idx: int, low: int, high: int, results: List[Node]) -> None:
         if current_idx == -1:
